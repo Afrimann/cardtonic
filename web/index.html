@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Tonic</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="query.css">
+</head>
+<body>
+    <!-- header section -->
+    <section class="header">
+        
+            <div class="navbar header-container flex justify">
+                <div class="nav-logo-large white cursive">
+                   <h2 id="logo-text"></h2>
+                </div>
+                <div class="nav-items">
+                    <ul class="item-1">
+                        <li class="nav-links">Home</li>
+                        <li class="nav-links">About</li>
+                        <li class="nav-links">Services</li>
+                        <li class="nav-links">Members</li>
+                        <li class="nav-links">Products</li>
+                        <li class="nav-links">Contact Us</li>
+                        
+                    </ul>
+                </div>
+                <div class="nav-links">
+                    <ul class="item-2">
+                        <li class="nav-links">Login</li>
+                        <li class="nav-links">Sign Up</li>
+                        <li class="hamburger hidden" id="hamburger" onclick="hamburger()"><img src="./images/icon-hamburger.svg" alt="">
+                            <li class="close hidden" id="close" onclick="funct()"><img src="./images/icon-close.svg" alt=""></li>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+    </section>
+    
+    <section class="hero homepage two-rows">
+        <div class="hero-container">
+            <div class="hero-intro">
+                <h1 id="hero-text"></h1>
+                <div class="hero-buttons">
+                    <button>Be a Part</button>
+                    <button>FAQs</button>
+                </div>
+                
+            </div>
+            <div class="hero-image">
+                <img src="./images/mech.png" width="700" alt="">
+            </div>
+        </div>
+
+        
+        <div class="about inside-hero">
+
+
+        </div>
+        
+    </section>
+
+    <section class="dropdown" id="dropdown">
+        <div class="dropdown-content">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+
+
+    
+    <!-- javascript code -->
+<script>
+
+    document.getElementById("logo-text").innerText="Card-Tonic"
+    document.getElementById("hero-text").innerText="CardTonic is a vegetative community that deals with the responsibilty of providing alternative to manual agricultural labour."
+
+    function hamburger(){
+        document.getElementById("dropdown").style.display="block"
+        document.getElementById("hamburger").style.display="none"
+        document.getElementById("close").style.display="block"
+
+    }
+    function funct(){
+        document.getElementById("dropdown").style.display="none"
+        document.getElementById("hamburger").style.display="block"
+        document.getElementById("close").style.display="none"
+
+
+    }
+</script>
+    
+</body>
+</html>

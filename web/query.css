@@ -1,0 +1,74 @@
+@media screen and (max-width:800px) {
+    .navbar ul li{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .header{
+        height: 10vh;
+        padding: 10px;
+    }
+    .navbar{
+        position: relative;
+        bottom: 20px;
+    }
+    .navbar ul li{
+        display: none;
+    }
+
+    .nav-links .item-2 .hamburger{
+        display: block;
+    }
+    .nav-logo-large #logo-text{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: rgb(73, 47, 13);  /*to be changed later*/
+        /* text-align: center; */
+    }
+    .hero{
+        height: 100vh;
+        padding-top: 20px;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+    } 
+    .hero #hero-text{
+        text-align: center;
+        font-size: 35px;
+        max-width: 100%;
+        padding-top: 40px;
+        padding-left: 20px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        /* flex: 1 1 55%; */
+    
+    }
+    .hero-buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .close{
+        display: none;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero .hero-image{
+        max-width: 100%;
+        position: relative;
+        bottom: 0;
+        
+    }
+    .hero .hero-image img{
+        max-width: 100%;
+    }
+}
