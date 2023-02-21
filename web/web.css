@@ -164,6 +164,7 @@ section{
     border: none;
     opacity: 1;
     cursor: pointer;
+    color: white;
 }
 .hero-buttons button:hover{
     opacity: 0.6;
