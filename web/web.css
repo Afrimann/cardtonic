@@ -164,7 +164,6 @@ section{
     border: none;
     opacity: 1;
     cursor: pointer;
-    color: white;
 }
 .hero-buttons button:hover{
     opacity: 0.6;
@@ -203,4 +202,21 @@ section{
 .close{
     cursor: pointer;
     display: none;
+}
+
+/* about section */
+
+.about{
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+}
+.about h2{
+    color: rgb(89, 212, 89);
+    text-align: right;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*interim*/
+}
+.about #about-paragraph{
+    font-size: 24px;
 }
